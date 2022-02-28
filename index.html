@@ -19,7 +19,7 @@
                  <a href="#what-we-do">What We Do</a>
                 </li>
                 <li>
-                    <a href="what-you-do">What You Do</a>
+                    <a href="#what-you-do">What You Do</a>
                 </li>
                 <li><a href="#your-trainers">Your Trainers</a>
                 </li>
@@ -29,22 +29,19 @@
               </ul>
           </nav>
           </header>
-          <section>
-          <div>
-            <h3>Get Started Today</h3>
+          <!--hero section-->
+           <section class="hero"> 
+          <div class="hero-form">
+            <h3>Get Started Today!</h3>
             <p>Fill out this form and one of our trainers will schedule a consult</p>
-          </div>
-        </section>
         <form>
           <label for="name">Enter full name:</label>
-          <input type="text" placeholder="Your Name" name="name" id="name" />
-         </form>
-         
-         <form> 
+          <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
            <label for="email"> Enter email address:</label>
-           <input type="text" placeholder="Email Address" name="email" id="email" />
+           <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
            <label for="phone">Enter a telephone number:</label>
-           <input type="text" placeholder="Phone number" name="phone" id="phone" />
+           <input type="tel" placeholder="Phone number" name="phone" id="phone" class="form-input" />
+          </form>
            <p>
              Have you worked out with trainer before?
              <input type="radio" name="trainer-confirm" id="trainer-yes" />
@@ -52,27 +49,64 @@
              <input type="radio" name="trainer-confirm" id="trainer-no"/>
             <label for= "trainer-no">no</label>
            </p>
-           <p>Im at least 18 years old
-           <input type="radio" name="age-confirm" id="age-yes" />
-           <label for="age-yes">yes</label>
-           <input type="radio" name="age-confrim" id="age-no" />
-           <label type="age-no">no</label>
-          </p>
-          </form>
+           <p>
+             <label for="checkbox">
+               I acknowledge that I am at least 18 years of age.
+             </label>
+             <input type="checkbox" name="age-confirm" id="checkbox" />
+             </p>
+             <button type="submit">
+               Get running!
+             </button>
+             </form>
+             </div>
+             </section>
+           
+            </form>
           
-         <!--hero/jumbotron-->
-           <section>
-           <img> 
-           </section>
 
            <!--"What We Do" section-->
-           <section>
+          
            <h2>What We Do</h2>
+           <p>
+            butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue
+            Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin
+            fingerstache pickled twee synth Wes Anderson Thundercats viral bitters flannel meggings narwhal Marfa Schlitz
+            sustainable Intelligentsia umami deep v craft
+           </p>
            </section>
 
             <!--"What you Do" section-->
-            <section>
+            
             <h2>What You Do</h2>
+            <div>
+              <img src="./assets/images/step-1.svg" alt="" />
+              <h3>Step 1: Fill Out the form Above.</h3>
+              <p>You're already here, so why not?</p>
+              
+              <div>
+                <img src="./assets/images/step-2.svg" alt=""/>
+                <h3>Step 2: Consult with one of our Trainers.</h3>
+                <p>Are you here to build muscle, lose weight, or just fel good?</p>
+                </div>
+
+              <div>
+                <img src="./assets/images/step-3.svg" alt=""/>
+                <h3>Step 3: Get Running.</h3>
+                <p>Hit the ground running (literally) once your trainer lays out your plan</p>
+              </div>
+               <div>
+                 <img src="./assets/images/step-3" alt=""/>
+                 <h3>Step 4: See Results.</h3>
+                 <p>Bi-weekly checkins with your trainer will keep you focused</p>
+               </div>
+              </section>
+              
+                
+              
+    
+               
+            
             </section>
 
             <!--"meet the trainers" section-->
